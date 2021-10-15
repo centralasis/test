@@ -29,10 +29,6 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 2201,2201,Purchase Tax Control Account,account.data_account_type_current_assets,FALSE,l10n_tt
 2202,2202,HMRC - VAT Account,account.data_account_type_payable,TRUE,l10n_tt
 2204,2204,Manual Adjustments ﾖ VAT,account.data_account_type_current_liabilities,FALSE,l10n_tt
-2210,2210,P.A.Y.E.,account.data_account_type_payable,TRUE,l10n_tt
-2220,2220,Health Surcharge,account.data_account_type_payable,TRUE,l10n_tt
-2230,2230,Employers NIS,account.data_account_type_payable,TRUE,l10n_tt
-2240,2240,Employee NIS,account.data_account_type_payable,TRUE,l10n_tt
 2250,2250,Net Wages,account.data_account_type_payable,TRUE,l10n_tt
 2260,2260,Pension Fund,account.data_account_type_payable,TRUE,l10n_tt
 2150,2150,Bad debt provision,account.data_account_type_current_liabilities,FALSE,l10n_tt
@@ -61,7 +57,6 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 7001,7001,Directors remuneration,account.data_account_type_expenses,FALSE,l10n_tt
 7010,7010,Admin gross salaries,account.data_account_type_expenses,FALSE,l10n_tt
 7011,7011,Management gross salaries,account.data_account_type_expenses,FALSE,l10n_tt
-7012,7030,Employers NIS expense,account.data_account_type_expenses,FALSE,l10n_tt
 7020,7020,Subcontractors payments,account.data_account_type_expenses,FALSE,l10n_tt
 7610,7610,Consultancy,account.data_account_type_expenses,FALSE,l10n_tt
 7620,7620,Legal and professional charges,account.data_account_type_expenses,FALSE,l10n_tt
