@@ -1,0 +1,3 @@
+id,name,country_id/id
+tax_group_0,VAT,base.tt
+tax_group_1,Business levy,base.tt

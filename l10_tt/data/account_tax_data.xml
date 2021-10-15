@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="ISVAT" model="account.tax.template">
+        <field name="description">VAT</field>
+        <field name="chart_template_id" ref="l10n_tt"/>
+        <field name="type_tax_use">sale</field>
+        <field name="name">Sales VAT Included in Price</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">12.5</field>
+        <field name="price_include" ref="True"/>
+        <field name="tax_group_id" ref="tax_group_0"/>
+		<field name="invoice_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+    </record>
+
+    <record id="ESVAT" model="account.tax.template">
+        <field name="description">VAT</field>
+        <field name="chart_template_id" ref="l10n_tt"/>
+        <field name="type_tax_use">sale</field>
+        <field name="name">Sales VAT Excluded from Price</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">12.5</field>
+        <field name="tax_group_id" ref="tax_group_0"/>
+		<field name="invoice_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+    </record>
+
+    
+    <record id="IPVAT" model="account.tax.template">
+        <field name="description">VAT</field>
+        <field name="chart_template_id" ref="l10n_tt"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="name">Purchases VAT Included in Price</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">12.5</field>
+        <field name="price_include" ref="True"/>
+        <field name="tax_group_id" ref="tax_group_0"/>
+		<field name="invoice_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+    </record>
+
+    <record id="EPVAT" model="account.tax.template">
+        <field name="description">VAT</field>
+        <field name="chart_template_id" ref="l10n_tt"/>
+        <field name="type_tax_use">purchase</field>
+        <field name="name">Purchase VAT Excluded from Price</field>
+        <field name="amount_type">percent</field>
+        <field name="amount">12.5</field>
+        <field name="tax_group_id" ref="tax_group_0"/>
+		<field name="invoice_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5,0,0),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'base',
+            }),
+            (0,0, {
+                'factor_percent': 100,
+                'repartition_type': 'tax',
+            }),
+        ]"/>
+    </record>
+
+
+</odoo>
