@@ -51,7 +51,7 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 5001,5001,Cost of sales 2,account.data_account_type_expenses,FALSE,l10n_tt
 5002,5002,Cost of sales 3,account.data_account_type_expenses,FALSE,l10n_tt
 5003,5003,Cost of sales 4,account.data_account_type_expenses,FALSE,l10n_tt
-6000,6000,Marketing,,,
+6000,6000,Marketing,account.data_account_type_expenses,FALSE,l10n_tt
 6001,6001,Exhibitions and events,account.data_account_type_expenses,FALSE,l10n_tt
 6002,6002,PR,account.data_account_type_expenses,FALSE,l10n_tt
 6010,6010,Distribution vehicles,account.data_account_type_expenses,FALSE,l10n_tt
@@ -67,9 +67,9 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 7620,7620,Legal and professional charges,account.data_account_type_expenses,FALSE,l10n_tt
 7601,7601,Accounting,account.data_account_type_expenses,FALSE,l10n_tt
 7602,7602,Auditing,account.data_account_type_expenses,FALSE,l10n_tt
-7110,7110,Light,,,
+7110,7110,Light,account.data_account_type_expenses,FALSE,l10n_tt
 7100,7100,Rent and rates,account.data_account_type_expenses,FALSE,l10n_tt
-7120,7120,Repairs,,,
+7120,7120,Repairs,account.data_account_type_expenses,FALSE,l10n_tt
 7300,7300,Car hire,account.data_account_type_expenses,FALSE,l10n_tt
 7301,7301,Car fuel,account.data_account_type_expenses,FALSE,l10n_tt
 7302,7302,Car maintenance,account.data_account_type_expenses,FALSE,l10n_tt
@@ -88,7 +88,7 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 7700,7700,Exchange gains/losses,account.data_account_type_expenses,FALSE,l10n_tt
 7710,7710,Other sundry expenses,account.data_account_type_expenses,FALSE,l10n_tt
 7850,7850,Bad debts,account.data_account_type_expenses,FALSE,l10n_tt
-7910,7910,Bank,,,
+7910,7910,Bank,account.data_account_type_expenses,FALSE,l10n_tt
 8000,8000,Intangible assets depn,account.data_account_type_expenses,FALSE,l10n_tt
 8001,8001,Tangible assets depn,account.data_account_type_expenses,FALSE,l10n_tt
 8200,8200,Donations,account.data_account_type_expenses,FALSE,l10n_tt
