@@ -19,7 +19,6 @@ This is the latest TT Odoo localisation necessary to run Odoo accounting for TT 
         'data/account.chart.template.csv',
         'data/account.tax.group.csv',
         'data/account_tax_data.xml',
-        'data/account_chart_template_data.xml',
     ],
 
     'license': 'OPL-1',
